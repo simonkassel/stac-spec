@@ -4,7 +4,7 @@
   "title": "STAC Label Data Item Extension Spec",
   "allOf": [
     {
-      "$ref": "../../../item-spec/json-schema/item.json#/definitions/core"
+      "$ref": "../../item-spec/json-schema/item.json#/definitions/core"
     },
     {
       "$ref": "#/definitions/label"
