@@ -3,6 +3,11 @@
     "$id": "stac-label-item-schema.json#",
     "title": "STAC Label Data Item Extension Spec",
     "type": "object",
+    "allOf": [
+      {
+        "$ref": "../../../item-spec/json-schema/item.json#/definitions/core"
+      }
+    ],
     "properties": {
       "properties": {
         "type": "object",
